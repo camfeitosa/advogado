@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export function Form() {
 
-  const notify = () => toast.success("Formulário enviado com sucesso")
+  // const notify = () => toast.success("Formulário enviado com sucesso")
 
   const [formData, setFormData] = useState({
     name: "",
@@ -34,7 +34,7 @@ export function Form() {
       subject: `Email enviado por ${formData.name}`
     }
 
-    emailjs.send("service_0oobqn2", "template_hta7fmg", templateParams, "A7Fp86KcUR-QSQbS7").then(
+    emailjs.send("service_chqdmqe", "template_1m78zhp", templateParams, "Uu8mJiCc9V1QnKYBG").then(
       (response) => {
         console.log('SUCCESS!', response.status, response.text);
         toast.success("Formulário enviado com sucesso")
@@ -81,11 +81,11 @@ export function Form() {
         />
       </div>
       <div className="flex flex-col gap-4">
-        <label htmlFor="tel">Telefone:</label>
+        <label htmlFor="tel">Telefone: </label>
         <input
           name="tel"
           type="tel"
-          pattern="\(\d{2}\) \d{4,5}-\d{4}"
+          pattern="\(?\d{2}\)?\d{4,5}\d{4}"
           className="bg-transparent"
           placeholder="Insira seu telefone"
           onChange={handleChange}

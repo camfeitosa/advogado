@@ -8,10 +8,10 @@ import { MdOutlineEmail } from "react-icons/md";
 export function Contato(){
   return(
     <section className="md:px-20 relative">
-      <img src={icon} className="md:block hidden w-1/5 absolute left-[2%] bottom-0" />
+      <img src={icon} className="md:block hidden w-1/5 absolute left-[2%] bottom-0" loading="lazy"/>
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-3 lg:px-20" id="Contato">
 
-        <div className="contato lg:col-span-2 bg-[#0C1A26] lg:h-[86vh] py-6 flex gap-6 flex-col items-center text-white w-full">
+        <div className="contato lg:col-span-2 bg-[#0C1A26] py-6 flex gap-6 flex-col items-center text-white w-full">
           
           <div className="px-6 items-center text-center flex flex-col gap-2">
             <h2 className="text-3xl mt-6 mb-2"><span className="border-b-4 border-[#D0A854]">Mande</span> uma mensagem</h2>
@@ -40,7 +40,7 @@ export function Contato(){
 
           <div className="links flex flex-col gap-2 w-1/2 items-center">
             <MdOutlineEmail className="text-2xl text-[#D0A854]" />
-            <a href="mailto:Agnaldo.direito1973@gmail.com">Agnaldo.direito1973@gmail.com</a>
+            <a href="mailto:agnaldo.direito1973@gmail.com">agnaldo.direito1973@gmail.com</a>
           </div>
 
         </div>

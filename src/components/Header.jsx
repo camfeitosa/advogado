@@ -1,21 +1,24 @@
 import { useState } from "react";
 import Logo from "../assets/logo.svg"
 import Menu from "../assets/menuH.svg"
+
+// import { slide as Menu } from 'react-burger-menu'
+
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
 
 export function Header(){
-  const [activeLink, setActiveLink] = useState('#Inicio'); // Estado para rastrear o link ativo
+  const [activeLink, setActiveLink] = useState('#Inicio'); 
 
   const handleClick = (link) => {
-    setActiveLink(link); // Atualiza o link ativo
+    setActiveLink(link); 
   };
 
 
   return(
     <header className="flex justify-between md:justify-around px-6 md:px-2 py-4 items-center border-b shadow-lg w-full bg-white fixed top-0 left-0 z-10"> 
     <div>
-      <img className="w-[160px] md:w-auto" src={Logo} alt="Logo do site" />
+      <img className="w-[160px] h-[80px] md:w-auto" src={Logo} alt="Logo do site" loading="lazy" />
     </div>
 
       <nav className="hidden md:flex">
@@ -33,7 +36,7 @@ export function Header(){
       </div>
 
       <div className="md:hidden">
-        <img src={Menu}/>
+        <img src={Menu} loading="lazy"/>
       </div>
     </header>
   )

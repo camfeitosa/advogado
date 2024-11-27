@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap');
+
 *{
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -92,7 +94,7 @@ nav ul li a.active, nav ul li a:hover{
   color: #f1e8d8;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1026px) {
   .fundo {
     background-color: #efefef;
     background-image: none;
@@ -100,8 +102,9 @@ nav ul li a.active, nav ul li a:hover{
   .hero{
     background-image: url("../public/hero3.webp");
   }
-
 }
+
+
 
 @media screen and (min-width: 1024px) {
   .contato {
