@@ -19,9 +19,10 @@ export function Hero() {
 
   return (
     <>
-      <section className="hero md:px-40 text-center lg:text-start bg-cover lg:bg-cover xl:bg-contain md:bg-cover md:h-[80vh] lg:h-[90vh] h-[70vh] px-4 lg:bg-fixed lg:mt-0 mt-20 pt-24 lg:pt-[12rem]" id="Inicio">
-        <div className="w-full md:w-1/2 flex flex-col justify-between lg:items-start items-center gap-12 text-white">
-          <div className="flex flex-col gap-2 items-center md:items-baseline">
+      <section className="hero md:px-40 text-center lg:text-start bg-cover xl:bg-cover 2xl:bg-contain xl:pb-[12rem] pb-[8rem] px-4 lg:bg-fixed lg:mt-0 mt-20 pt-24 lg:pt-[12rem]" id="Inicio">
+        
+        <div className="w-full lg:w-1/2 flex flex-col justify-between lg:items-start items-center gap-12 text-white">
+          <div className="flex flex-col gap-2 items-center lg:items-baseline">
             <h1 className="md:text-5xl text-3xl font-semibold lg:w-[600px] w-full mt-2 flex flex-col uppercase">
               Agnaldo Alves de Siqueira
             </h1>
