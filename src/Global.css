@@ -104,11 +104,24 @@ nav ul li a.active, nav ul li a:hover{
   }
 }
 
-@media (min-width: 1496px) and (max-width: 1630px){
+@media (min-width: 1490px){
+  .hero{
+    background-size: contain;
+    padding-bottom: 10rem;
+  }
+} 
+
+@media (min-width: 1496px) and (max-width: 1510px){
   .hero{
     background-size: cover;
   }
 } 
+
+@media (min-width: 1559px){
+  .hero{
+    background-size: cover;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .contato {
