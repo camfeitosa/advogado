@@ -47,13 +47,12 @@ h1, h2, h3, h4, h5, h6, span{
 }
 
 .hero {
-  background-image: url("../public/hero.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .fundo{
-  background-image: url("../public/fundo2.png");
+  background-image: url("../public/fundo.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -99,9 +98,7 @@ nav ul li a.active, nav ul li a:hover{
     background-color: #efefef;
     background-image: none;
   }
-  .hero{
-    background-image: url("../public/hero3.webp");
-  }
+
 }
 
 @media (min-width: 1490px){
