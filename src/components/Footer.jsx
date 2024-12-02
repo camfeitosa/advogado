@@ -10,12 +10,12 @@ export function Footer() {
 
       <div className="link flex gap-6">
       <a href="https://www.instagram.com/agnaldo.direito/" rel="noopener noreferrer" target="_blank"><FaInstagram className="text-2xl"/></a> 
-      <a href="https://wa.me/5511997573166" rel="noopener noreferrer" target="_blank"><FaWhatsapp className="text-2xl"/></a>
-      <a href="https://wa.me/5511997573166" rel="noopener noreferrer" target="_blank"><MdOutlineEmail className="text-2xl"/></a>
+      <a href="https://wa.link/v96jws" rel="noopener noreferrer" target="_blank"><FaWhatsapp className="text-2xl"/></a>
+      <a href="mailto:agnaldo.direito1973@gmail.com" rel="noopener noreferrer" target="_blank"><MdOutlineEmail className="text-2xl"/></a>
       </div>
 
       <div className="pb-10 lg:pb-0">
-        <p>&copy; AAS ADVOGADO | Todos os direitos revervados</p> 
+        <p>&copy; 2024 AAS ADVOGADO | Todos os direitos reservados.</p> 
       </div>
     </footer>
   );

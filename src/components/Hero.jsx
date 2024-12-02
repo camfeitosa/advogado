@@ -73,7 +73,7 @@ export function Hero() {
             direitos e garantir a melhor defesa dos seus interesses.
           </p>
           <div className="py-4 px-6 text-[#0C1A26] font-medium bg-[#D0A854] radius">
-            <a href="https://wa.me/5511997573166" className="font-bold md:text-lg">
+            <a href="https://wa.link/v96jws" className="font-bold md:text-lg">
               Entre em contato
             </a>
           </div>

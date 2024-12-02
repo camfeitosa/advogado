@@ -30,7 +30,7 @@ export function Contato(){
 
           <div className="links flex flex-col gap-2 w-1/2 items-center">
           <FaWhatsapp className="text-2xl text-[#D0A854]" />         
-          <a href="https://wa.me/5511997573166" rel="noopener noreferrer" target="_blank">(11) 99757-3166</a>
+          <a href="https://wa.link/v96jws" rel="noopener noreferrer" target="_blank">(11) 99757-3166</a>
           </div>
 
           <div className="links flex flex-col gap-2 w-1/2 items-center">

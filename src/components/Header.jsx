@@ -75,7 +75,7 @@ export function Header() {
           <FaInstagram className="text-2xl" />
         </a>
         <a
-          href="https://wa.me/5511997573166"
+          href="https://wa.link/v96jws"
           rel="noopener noreferrer"
           target="_blank"
         >
