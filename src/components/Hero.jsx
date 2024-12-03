@@ -69,7 +69,7 @@ export function Hero() {
           </div>
           <p className="md:text-lg">
             Especialista nas áreas de Direito Trabalhista, Civil e Criminal,
-            ofereço soluções jurídicas personalizadas para proteger seus
+            oferece soluções jurídicas personalizadas para proteger seus
             direitos e garantir a melhor defesa dos seus interesses.
           </p>
           <div className="py-4 px-6 text-[#0C1A26] font-medium bg-[#D0A854] radius">
@@ -82,7 +82,7 @@ export function Hero() {
 
       <div className="relative bottom-10 lg:bottom-20 bg-[#0C1A26] flex justify-center md:px-20">
         <CardHero h2="Trabalhista" img={icon} />
-        <CardHero h2="Cívil" img={civil} />
+        <CardHero h2="Civil" img={civil} />
         <CardHero h2="Criminal" img={criminal} />
       </div>
     </>
